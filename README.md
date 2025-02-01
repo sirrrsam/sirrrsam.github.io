@@ -96,3 +96,55 @@ Secondary Market 15
     </div>
 </body>
 </html>
+body {
+    background-color: white;
+    font-family: Arial, sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Styling for the Home Page */
+h1 {
+    margin-bottom: 20px;
+}
+
+a {
+    color: #0066cc;
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+a:hover {
+    background-color: #e1e1e1;
+}
+
+/* Styling for the Products Page */
+.product {
+    display: inline-block;
+    margin: 10px;
+    vertical-align: top;
+}
+
+.product img {
+    width: 200px;
+    height: auto;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+/* Styling for the Contact Page */
+.contact-info {
+    font-size: 1em;
+    line-height: 1.6;
+}
